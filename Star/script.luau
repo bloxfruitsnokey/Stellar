@@ -1757,7 +1757,7 @@ end;
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloxfruitsnokey/Stellar/refs/heads/main/Star/main.luau"))()
 
 local Window = Library:Window({
-	Name = "Star Hub",
+	Name = "Red Hub",
 	SubName = "Blox Fruits",
 	Logo = "rbxassetid://130081073138836",
 })
