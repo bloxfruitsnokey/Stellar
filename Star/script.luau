@@ -1754,7 +1754,7 @@ function CheckQuest()
 	end;
 end;
 -- ===== vonlib (Redz) UI bootstrap =====
-local Library = loadstring(game:HttpGet("https://pastefy.app/9KGqRzYk/raw"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloxfruitsnokey/Stellar/refs/heads/main/Star/main.luau"))()
 
 local Window = Library:Window({
 	Name = "Star Hub",
