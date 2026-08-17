@@ -10507,7 +10507,7 @@ do
 	corner.CornerRadius = UDim.new(1, 8)
 	local stroke = Instance.new("UIStroke", Btn)
 	stroke.Thickness = 0.6
-	stroke.Color = Color3.fromRGB(55, 60, 65)
+	stroke.Color = Color3.fromRGB(25, 10, 10)
 
 	-- Draggable (mouse + touch), only toggles on a real click (not a drag)
 	local dragging, moved, dragStart, startPos
