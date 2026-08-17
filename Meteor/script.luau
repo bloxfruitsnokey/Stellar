@@ -1759,7 +1759,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloxf
 local Window = Library:Window({
 	Name = "Meteor Hub",
 	SubName = "Blox Fruits",
-	Logo = "rbxassetid://78809343546997",
+	Logo = "rbxassetid://131535899720524",
 })
 
 
@@ -10498,7 +10498,7 @@ do
 	Btn.BorderSizePixel = 0
 	Btn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Btn.AnchorPoint = Vector2.new(0, 1)
-	Btn.Image = "rbxassetid://131077850514970"
+	Btn.Image = "rbxassetid://70646056296322"
 	Btn.Size = UDim2.new(0, 50, 0, 50)
 	Btn.Position = UDim2.new(0.01, 0, 0.99, 0)
 	Btn.AutoButtonColor = true
