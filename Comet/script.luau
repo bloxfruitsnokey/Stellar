@@ -1754,12 +1754,12 @@ function CheckQuest()
 	end;
 end;
 -- ===== Stellar UI bootstrap =====
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloxfruitsnokey/Stellar/refs/heads/main/Meteor/ui.luau"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloxfruitsnokey/Stellar/refs/heads/main/Comet/ui.luau"))()
 
 local Window = Library:Window({
 	Name = "Comet Hub",
 	SubName = "Blox Fruits",
-	Logo = "rbxassetid://131535899720524",
+	Logo = "rbxassetid://115532752280150",
 })
 
 
@@ -10498,7 +10498,7 @@ do
 	Btn.BorderSizePixel = 0
 	Btn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Btn.AnchorPoint = Vector2.new(0, 1)
-	Btn.Image = "rbxassetid://70646056296322"
+	Btn.Image = "rbxassetid://81034057982528"
 	Btn.Size = UDim2.new(0, 50, 0, 50)
 	Btn.Position = UDim2.new(0.05, 0, 0.30, 0)
 	Btn.AutoButtonColor = true
