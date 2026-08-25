@@ -1754,7 +1754,7 @@ function CheckQuest()
 	end;
 end;
 -- ===== Stellar UI bootstrap =====
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloxfruitsnokey/Stellar/refs/heads/main/Comet/ui.luau"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloxfruitsnokey/Stellar/refs/heads/main/Test/ui.luau"))()
 
 local Window = Library:Window({
 	Name = "Comet Hub",
