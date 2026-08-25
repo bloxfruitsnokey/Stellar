@@ -1766,12 +1766,12 @@ local Window = Library:Window({
 
 local ThemePresets = {
 	["Default"] = {
-Accent      = Color3.fromRGB(180, 185, 190),
-Text        = Color3.fromRGB(255, 255, 255),
-Background   = Color3.fromRGB(10, 11, 12),
-Outline     = Color3.fromRGB(22, 24, 23),
-Inline      = Color3.fromRGB(18, 20, 22),
-Element     = Color3.fromRGB(25, 29, 31),
+    Accent      = Color3.fromRGB(235, 55, 75),
+    Text        = Color3.fromRGB(255, 255, 255),
+    Background  = Color3.fromRGB(10, 5, 12),
+    Outline     = Color3.fromRGB(115, 18, 35),
+    Inline      = Color3.fromRGB(35, 8, 18),
+    Element     = Color3.fromRGB(145, 25, 45),
 	},
 	["Red"] = {
 		Accent      = Color3.fromRGB(255, 80, 80),
