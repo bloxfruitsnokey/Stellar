@@ -1790,12 +1790,12 @@ local ThemePresets = {
 		Element     = Color3.fromRGB(25, 29, 31),
 	},
 	["Blue"] = {
-    Accent      = Color3.fromRGB(255, 190, 35),
+    Accent      = Color3.fromRGB(255, 205, 55),
     Text        = Color3.fromRGB(255, 255, 255),
-    Background  = Color3.fromRGB(45, 7, 5),
-    Outline     = Color3.fromRGB(180, 35, 10),
-    Inline      = Color3.fromRGB(80, 12, 6),
-    Element     = Color3.fromRGB(220, 65, 10),
+    Background  = Color3.fromRGB(45, 20, 5),
+    Outline     = Color3.fromRGB(190, 90, 10),
+    Inline      = Color3.fromRGB(85, 38, 6),
+    Element     = Color3.fromRGB(220, 120, 15),
 	},
 	["Purple"] = {
 		Accent      = Color3.fromRGB(200, 100, 255),
