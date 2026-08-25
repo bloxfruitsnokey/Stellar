@@ -1863,7 +1863,7 @@ local function ApplyTheme(name)
 	Library:ChangeTheme("Element",     t.Element);
 end;
 
-ApplyTheme("Star");
+ApplyTheme("Nova");
 
 
 -- Notify shim: keeps original nz_Notify(title, content, duration) calls working
