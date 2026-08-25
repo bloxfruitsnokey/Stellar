@@ -1754,7 +1754,7 @@ function CheckQuest()
 	end;
 end;
 -- ===== Stellar UI bootstrap =====
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloxfruitsnokey/Stellar/refs/heads/main/Test/ui.luau"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloxfruitsnokey/Stellar/refs/heads/main/Comet/ui.luau"))()
 
 local Window = Library:Window({
 	Name = "Comet Hub",
@@ -1773,7 +1773,7 @@ local ThemePresets = {
 		Inline      = Color3.fromRGB(18, 20, 22),
 		Element     = Color3.fromRGB(25, 29, 31),
 	},
-	["Meteor"] = {
+	["Red"] = {
 		Accent      = Color3.fromRGB(255, 155, 25),
 		Text        = Color3.fromRGB(255, 255, 255),
 		Background  = Color3.fromRGB(55, 8, 6),
@@ -1781,75 +1781,46 @@ local ThemePresets = {
 		Inline      = Color3.fromRGB(90, 14, 7),
 		Element     = Color3.fromRGB(125, 28, 7),
 	},
-	["Comet"] = {
-		Accent = Color3.fromRGB(80, 210, 255),
-		Text = Color3.fromRGB(255, 255, 255),
-		Background = Color3.fromRGB(5, 15, 35),
-		Outline = Color3.fromRGB(20, 90, 150),
-		Inline = Color3.fromRGB(8, 35, 65),
-		Element = Color3.fromRGB(12, 60, 100),
+	["Green"] = {
+		Accent      = Color3.fromRGB(80, 255, 120),
+		Text        = Color3.fromRGB(255, 255, 255),
+		Background   = Color3.fromRGB(10, 11, 12),
+		Outline     = Color3.fromRGB(22, 24, 23),
+		Inline      = Color3.fromRGB(18, 20, 22),
+		Element     = Color3.fromRGB(25, 29, 31),
 	},
-["Star"] = {
-    Accent      = Color3.fromRGB(170, 220, 255),
-    Text        = Color3.fromRGB(255, 255, 255),
-    Background  = Color3.fromRGB(5, 12, 30),
-    Outline     = Color3.fromRGB(35, 105, 175),
-    Inline      = Color3.fromRGB(10, 30, 60),
-    Element     = Color3.fromRGB(55, 125, 190),
-},
-
-["Nova"] = {
+	["Blue"] = {
     Accent      = Color3.fromRGB(255, 190, 35),
     Text        = Color3.fromRGB(255, 255, 255),
     Background  = Color3.fromRGB(45, 7, 5),
     Outline     = Color3.fromRGB(180, 35, 10),
     Inline      = Color3.fromRGB(80, 12, 6),
     Element     = Color3.fromRGB(220, 65, 10),
-},
-
-["Solar"] = {
-    Accent      = Color3.fromRGB(255, 205, 55),
-    Text        = Color3.fromRGB(255, 255, 255),
-    Background  = Color3.fromRGB(45, 20, 5),
-    Outline     = Color3.fromRGB(190, 90, 10),
-    Inline      = Color3.fromRGB(85, 38, 6),
-    Element     = Color3.fromRGB(220, 120, 15),
-},
-
-["Eclipse"] = {
-    Accent      = Color3.fromRGB(235, 55, 75),
-    Text        = Color3.fromRGB(255, 255, 255),
-    Background  = Color3.fromRGB(10, 5, 12),
-    Outline     = Color3.fromRGB(115, 18, 35),
-    Inline      = Color3.fromRGB(35, 8, 18),
-    Element     = Color3.fromRGB(145, 25, 45),
-},
-
-["Cosmo"] = {
-    Accent      = Color3.fromRGB(190, 110, 255),
-    Text        = Color3.fromRGB(255, 255, 255),
-    Background  = Color3.fromRGB(15, 7, 35),
-    Outline     = Color3.fromRGB(90, 40, 155),
-    Inline      = Color3.fromRGB(35, 15, 70),
-    Element     = Color3.fromRGB(120, 55, 190),
-},
-
-["Orbit"] = {
-    Accent      = Color3.fromRGB(120, 190, 255),
-    Text        = Color3.fromRGB(255, 255, 255),
-    Background  = Color3.fromRGB(5, 10, 35),
-    Outline     = Color3.fromRGB(65, 70, 165),
-    Inline      = Color3.fromRGB(15, 25, 65),
-    Element     = Color3.fromRGB(75, 85, 190),
-},
-["Aurora"] = {
-    Accent      = Color3.fromRGB(80, 255, 180),
-    Text        = Color3.fromRGB(255, 255, 255),
-    Background  = Color3.fromRGB(4, 28, 25),
-    Outline     = Color3.fromRGB(15, 125, 95),
-    Inline      = Color3.fromRGB(7, 60, 48),
-    Element     = Color3.fromRGB(15, 150, 105),
-},
+	},
+	["Purple"] = {
+		Accent      = Color3.fromRGB(200, 100, 255),
+		Text        = Color3.fromRGB(255, 255, 255),
+		Background   = Color3.fromRGB(10, 11, 12),
+		Outline     = Color3.fromRGB(22, 24, 23),
+		Inline      = Color3.fromRGB(18, 20, 22),
+		Element     = Color3.fromRGB(25, 29, 31),
+	},
+	["Pink"] = {
+		Accent      = Color3.fromRGB(255, 100, 200),
+		Text        = Color3.fromRGB(255, 255, 255),
+		Background   = Color3.fromRGB(10, 11, 12),
+		Outline     = Color3.fromRGB(22, 24, 23),
+		Inline      = Color3.fromRGB(18, 20, 22),
+		Element     = Color3.fromRGB(25, 29, 31),
+	},
+	["Cyan"] = {
+		Accent      = Color3.fromRGB(0, 220, 220),
+		Text        = Color3.fromRGB(255, 255, 255),
+		Background   = Color3.fromRGB(10, 11, 12),
+		Outline     = Color3.fromRGB(22, 24, 23),
+		Inline      = Color3.fromRGB(18, 20, 22),
+		Element     = Color3.fromRGB(25, 29, 31),
+	},
 };
 
 local function ApplyTheme(name)
@@ -1863,7 +1834,7 @@ local function ApplyTheme(name)
 	Library:ChangeTheme("Element",     t.Element);
 end;
 
-ApplyTheme("Nova");
+ApplyTheme("Blue");
 
 
 -- Notify shim: keeps original nz_Notify(title, content, duration) calls working
